@@ -1,0 +1,35 @@
+/*
+*
+* BGC Like Dislike Css
+*
+*/
+a.bgc-btn {
+    display:inline-block;
+    width: 46%;
+    border: 1px solid #000;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    transition:all .3s ease-in;
+}
+a.bgc-btn:hover{
+    border-radius: 2px;
+    background:#0c88b4;
+    color:#fff;
+    border:1px solid #fff;
+}
+
+div#bgc_response_wrapper {
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    color: red;
+}
+.show_like_count span {
+    background: black;
+    margin-right: 20px;
+    padding: 10px 20px;
+    color: #fff;
+}
